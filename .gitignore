@@ -4,3 +4,4 @@
 .altemplates
 .vs/
 .vscode/
+*.app

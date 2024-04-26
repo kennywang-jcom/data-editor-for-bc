@@ -4,9 +4,9 @@ page 81001 "DET Data Editor"
     Caption = 'Data Editor';
     PageType = StandardDialog;
     ApplicationArea = All;
-    UsageCategory = Tasks;
+    // UsageCategory = Tasks;
     InsertAllowed = false;
-    AccessByPermission = tabledata "DET Data Editor Buffer" = RIMD;
+    // AccessByPermission = tabledata "DET Data Editor Buffer" = RIMD;
     layout
     {
         area(content)

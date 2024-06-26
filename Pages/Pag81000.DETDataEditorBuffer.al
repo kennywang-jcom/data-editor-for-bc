@@ -1,3 +1,4 @@
+// 2.0.1.3 2024-06-26 KW add permissions
 page 81000 "DET Data Editor Buffer"
 {
 
@@ -20,7 +21,12 @@ page 81000 "DET Data Editor Buffer"
      tabledata "Workflow Step Instance Archive" = RMID, tabledata "G/L Entry" = RMID, tabledata "Approval Entry" = RMID, tabledata "Warehouse Entry" = RMID,
      tabledata "Value Entry" = RMID, tabledata "Item Register" = RMID, tabledata "G/L Register" = RIMD, tabledata "Vat Entry" = RMID, tabledata "Dimension Set Entry" = RIMD,
      tabledata "Service Invoice Header" = RMID, TableData "Service Cr.Memo Header" = RMID, TableData "Issued Reminder Header" = RMID, TableData "Issued Fin. Charge Memo Header" = RMID,
-     tabledata "G/L Entry - VAT Entry Link" = RMID;
+     tabledata "G/L Entry - VAT Entry Link" = RMID,
+     // v2.0.1.3 ++
+     tabledata "Item Application Entry" = RMID,
+     tabledata "Inventory Adjmt. Entry (Order)" = RIMD,
+     tabledata "Post Value Entry to G/L" = RIMD;
+    // v2.0.1.3 --
 
     layout
     {
